@@ -1,1 +1,1 @@
-simfolder="FNX320"
+simfolder="FNX_320_CFM"

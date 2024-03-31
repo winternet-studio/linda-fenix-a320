@@ -13,3 +13,8 @@ Originally developed by Andrew Gransden. Initial version in this repo was 0.3 be
 You need [FSUIPC](http://www.fsuipc.com/) for LINDA to work.
 
 Copy the files within the `src` folder to their respective LINDA folders found in the `Fsuipc7` folder.
+
+As is, it's configured for the CFM version. To use it for the IAE version change value `FNX_320_CFM` to `FNX_320_IAE` in `src/linda/aircrafts/Fenix A320/ident.lua`. [^1]
+
+
+[^1]: <https://www.avsim.com/forums/topic/642727-fenix-a320-v2-and-mcp/>
