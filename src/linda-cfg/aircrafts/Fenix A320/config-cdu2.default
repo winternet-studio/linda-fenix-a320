@@ -1,0 +1,89 @@
+-- config-cdu2.lua @ 2205221349 (LINDA 4.1.5.282) --
+
+-- ############################################### --
+-- ## CDU2
+-- ############################################### --
+
+-- LSKEYS block buttons and switches
+CDU2KEYS = { 
+["IDENT"]	= "empty"  ,
+["LSKL1"]   = FNX_PED_MCDUL_BTN_L1  ,
+["LSKL2"]   = FNX_PED_MCDUL_BTN_L2  ,
+["LSKL3"]   = FNX_PED_MCDUL_BTN_L3  ,
+["LSKL4"]   = FNX_PED_MCDUL_BTN_L4  ,
+["LSKL5"]   = FNX_PED_MCDUL_BTN_L5  ,
+["LSKL6"]   = FNX_PED_MCDUL_BTN_L6  ,
+
+["LSKR1"]   = FNX_PED_MCDUL_BTN_R1  ,
+["LSKR2"]   = FNX_PED_MCDUL_BTN_R2  ,
+["LSKR3"]   = FNX_PED_MCDUL_BTN_R3  ,
+["LSKR4"]   = FNX_PED_MCDUL_BTN_R4  ,
+["LSKR5"]   = FNX_PED_MCDUL_BTN_R5  ,
+["LSKR6"]   = FNX_PED_MCDUL_BTN_R6  ,
+
+["FUN11"]   = FNX_PED_MCDUL_BTN_dir  ,
+["FUN12"]   = FNX_PED_MCDUL_BTN_prog  ,
+["FUN13"]   = FNX_PED_MCDUL_BTN_perf  ,
+["FUN14"]   = FNX_PED_MCDUL_BTN_init  ,
+["FUN15"]   = FNX_PED_MCDUL_BTN_data  ,
+["FUN16"]   = FNX_PED_MCDUL_BTN_menu  ,
+
+["FUN21"]   = FNX_PED_MCDUL_BTN_fpln  ,
+["FUN22"]   = FNX_PED_MCDUL_BTN_radnav  ,
+["FUN23"]   = FNX_PED_MCDUL_BTN_fuel  ,
+["FUN24"]   = FNX_PED_MCDUL_BTN_secfpln  ,
+["FUN25"]   = FNX_PED_MCDUL_BTN_atc  ,
+["FUN26"]   = FNX_PED_MCDUL_BTN_airport  ,
+
+["FUN31"]   = FNX_PED_MCDUL_BTN_left  ,
+["FUN32"]   = FNX_PED_MCDUL_BTN_up  ,
+
+["FUN41"]   = FNX_PED_MCDUL_BTN_right  ,
+["FUN42"]   = FNX_PED_MCDUL_BTN_down  ,
+
+["KEY1"]   = FNX_PED_MCDUL_BTN_1  ,
+["KEY2"]   = FNX_PED_MCDUL_BTN_2  ,
+["KEY3"]   = FNX_PED_MCDUL_BTN_3  ,
+["KEY4"]   = FNX_PED_MCDUL_BTN_4  ,
+["KEY5"]   = FNX_PED_MCDUL_BTN_5  ,
+["KEY6"]   = FNX_PED_MCDUL_BTN_6  ,
+["KEY7"]   = FNX_PED_MCDUL_BTN_7  ,
+["KEY8"]   = FNX_PED_MCDUL_BTN_8  ,
+["KEY9"]   = FNX_PED_MCDUL_BTN_9  ,
+["KEY."]   = FNX_PED_MCDUL_BTN_dot  ,
+["KEY0"]   = FNX_PED_MCDUL_BTN_0  ,
+["KEY+"]   = FNX_PED_MCDUL_BTN_plusminus  ,
+
+["KEYA"]   = FNX_PED_MCDUL_BTN_A  ,
+["KEYB"]   = FNX_PED_MCDUL_BTN_B  ,
+["KEYC"]   = FNX_PED_MCDUL_BTN_C  ,
+["KEYD"]   = FNX_PED_MCDUL_BTN_D  ,
+["KEYE"]   = FNX_PED_MCDUL_BTN_E  ,
+["KEYF"]   = FNX_PED_MCDUL_BTN_F  ,
+["KEYG"]   = FNX_PED_MCDUL_BTN_G  ,
+["KEYH"]   = FNX_PED_MCDUL_BTN_H  ,
+["KEYI"]   = FNX_PED_MCDUL_BTN_I  ,
+["KEYJ"]   = FNX_PED_MCDUL_BTN_J  ,
+["KEYK"]   = FNX_PED_MCDUL_BTN_K  ,
+["KEYL"]   = FNX_PED_MCDUL_BTN_L  ,
+["KEYM"]   = FNX_PED_MCDUL_BTN_M  ,
+["KEYN"]   = FNX_PED_MCDUL_BTN_N  ,
+["KEYO"]   = FNX_PED_MCDUL_BTN_O  ,
+["KEYP"]   = FNX_PED_MCDUL_BTN_P  ,
+["KEYQ"]   = FNX_PED_MCDUL_BTN_Q  ,
+["KEYR"]   = FNX_PED_MCDUL_BTN_R  ,
+["KEYS"]   = FNX_PED_MCDUL_BTN_S  ,
+["KEYT"]   = FNX_PED_MCDUL_BTN_T  ,
+["KEYU"]   = FNX_PED_MCDUL_BTN_U  ,
+["KEYV"]   = FNX_PED_MCDUL_BTN_V  ,
+["KEYW"]   = FNX_PED_MCDUL_BTN_W  ,
+["KEYX"]   = FNX_PED_MCDUL_BTN_X  ,
+["KEYY"]   = FNX_PED_MCDUL_BTN_Y  ,
+["KEYZ"]   = FNX_PED_MCDUL_BTN_Z  ,
+["KEYSP"]   = FNX_PED_MCDUL_BTN_div  ,
+["KEYDEL"]   = FNX_PED_MCDUL_BTN_sp  ,
+["KEYSL"]   = FNX_PED_MCDUL_BTN_ovfy  ,
+["KEYCLR"]   = FNX_PED_MCDUL_BTN_clr  ,
+
+}
+
