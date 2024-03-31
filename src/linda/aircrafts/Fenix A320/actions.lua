@@ -5846,6 +5846,35 @@ end
 
 -----------------------------------------------------------
 
+function FNX320_Misc_Tiller_Pedal_Disconnect_on()
+    Lvar = "L:S_FC_CAPT_TILLER_PEDAL_DISCONNECT"
+    if ipc.readLvar(Lvar) ~= 1 then
+        ipc.writeLvar(Lvar, 1)
+        ipc.writeLvar(Lvar .. '_Anim', 1)
+        DspShow('PDL_DSC','on')
+    end
+end
+
+function FNX320_Misc_Tiller_Pedal_Disconnect_off()
+    Lvar = "L:S_FC_CAPT_TILLER_PEDAL_DISCONNECT"
+    if ipc.readLvar(Lvar) ~= 0 then
+        ipc.writeLvar(Lvar, 0)
+        ipc.writeLvar(Lvar .. '_Anim', 0)
+        DspShow('PDL_DSC','off')
+    end
+end
+
+function FNX320_Misc_Tiller_Pedal_Disconnect_toggle()
+    Lvar = "L:S_FC_CAPT_TILLER_PEDAL_DISCONNECT"
+    if ipc.readLvar(Lvar) < 1 then
+        FNX320_Misc_Tiller_Pedal_Disconnect_on()
+    else
+        FNX320_Misc_Tiller_Pedal_Disconnect_off()
+    end
+end
+
+-----------------------------------------------------------
+
 function FNX_DspVVS (force)
     if force == nil then
         force = 0
