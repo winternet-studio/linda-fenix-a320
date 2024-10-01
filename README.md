@@ -17,4 +17,9 @@ Copy the files within the `src` folder to their respective LINDA folders found i
 As is, it's configured for the CFM version. To use it for the IAE version change value `FNX_320_CFM` to `FNX_320_IAE` in `src/linda/aircrafts/Fenix A320/ident.lua`. [^1]
 
 
+### You have an issue?
+
+I'm not the creator of this and is not maintaining this code, I only keep it here for all to access it at a central location. If you have any issues, it will be up to yourself and try to solve it, and if you make any improvements then you can do a pull request (or let me know) to get the changes included here.
+
+
 [^1]: <https://www.avsim.com/forums/topic/642727-fenix-a320-v2-and-mcp/>
